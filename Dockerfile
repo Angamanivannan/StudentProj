@@ -11,7 +11,7 @@ VOLUME /tmp
 EXPOSE 8081
 
 # The application's jar file
-ARG JAR_FILE=target/StudentApp.Excercises-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=/Users/Shared/Jenkins/Home/workspace/Docker_proj/target/StudentApp.Excercises-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
 ADD ${JAR_FILE} StudentApp.Excercises.jar
